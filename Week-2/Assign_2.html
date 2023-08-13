@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <style>
+     
+    .container {
+      display: flex;
+      flex-direction: column; 
+      width: 400px;
+    }
+
+    
+    .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    
+    .label {
+      flex: 1; 
+      margin-right: 40px; 
+    }
+
+    
+    .input {
+      flex: 2; 
+    }
+
+    .form-center  {
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translate(-40%,-40%);
+}
+  </style>
+</head>
+<body>
+    <div class="form-center">
+        <h1>HAPPY BIRTHDAY FORM</h1><br>
+    <form>
+  <div class="container">
+    <div class="row">
+      <label for="Message" class="label">Message:</label>
+      <input type="text" id="Message" class="input">
+    </div>
+
+    <div class="row">
+      <label for="email" class="label">Email Address:</label>
+      <input type="email" id="email" class="input" pattern=" [a-zA-Z0-9-_.]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0- 9-]+)*" >
+    </div>
+
+    <div class="row">
+        <label for="date" class="label">Date:</label>
+        <input type="date" id="date" name="date" class="input">
+    </div>
+
+    
+    <div class="row" >   
+        <label for="color" class="label">Colour:</label>
+        <input type="color" name="color" id="color" class="input">
+    </div>
+
+    <div class="row" >   
+        <label for="number" class="label">Number:</label>
+        <input type="number" name="number" id="number" class="input">
+    </div>
+
+    <div class="row" >   
+        <label for="range" class="label">Music Volume:</label>
+        <input type="range" name="range" id="range" class="input">
+    </div>
+
+    <div class="row">
+      <button type="submit">Send Message</button>
+    </div>
+  </div>
+
+</form>
+</div>
+</body>
+</html>

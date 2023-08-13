@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     
+    .container {
+      display: flex;
+      flex-direction: column; 
+      width: 400px;
+    }
+
+    
+    .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    
+    .label {
+      flex: 1; 
+      margin-right: 40px; 
+    }
+
+    
+    .input {
+      flex: 2; 
+    }
+
+    .form-center  {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+  </style>
+</head>
+<body>
+    <div class="form-center">
+    <form>
+  <div class="container">
+    <div class="row">
+      <label for="name" class="label">Full Name:</label>
+      <input type="text" id="name" class="input">
+    </div>
+
+    <div class="row">
+      <label for="email" class="label">Email Address:</label>
+      <input type="email" id="email" class="input">
+    </div>
+
+    <div class="row">
+      <label for="message" class="label">About you:</label>
+      <textarea id="message" class="input"></textarea>
+    </div>
+
+    <div class="row" >   
+        <label for="picture" class="label">Photo:</label>
+        <input type="file" name="picture" id="picture" class="input">
+    </div>
+
+    <div class="row">
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+
+</form>
+</div>
+</body>
+</html>

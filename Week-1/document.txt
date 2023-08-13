@@ -1,0 +1,44 @@
+What is a protocol stack, and how is it used in web development?
+ans:The protocol stack is used to allow the combination of different protocols that each set the boundaries for a number of network activities.
+The most common protocol stack used in web development is the TCP/IP protocol stack.
+5 layer protocol stack used in web development:
+1)Application Layer:Describe how the data transfer between web browser and server.protocol used in this layer are http and https .
+2)Transport Layer :Ensure Data transmission between application running on different devices.
+TCP protocol used in trnsport layer.
+3)Network Layer:Responsible for routing data packets across the network from the source to the destination. 
+4)Data Link Layer:Responsible for maintaining link between 2 nodes of same network
+5)Physical Layer:Deals with the physical transmission of data over the network medium .
+
+Q2.What are the different types of web servers, and how do they differ in terms of functionality and performance?
+Ans:web server are software application that are used to handle the http request and provide data to browser.
+different types are :Apache HTTP Server,Nginx ,Microsoft Internet Information Services ,LiteSpeed Web Server,Caddy
+Apache is one of the most widely used and popular web servers. It is an open-source web server known for its flexibility and robustness.
+Nginx is a lightweight and high-performance web server often used as a reverse proxy server or load balancer.
+IIS is a web server developed by Microsoft for Windows operating systems. It is tightly integrated with the Windows environment and is well-suited for hosting ASP.NET applications and other Microsoft technologies.
+LiteSpeed is a commercial web server known for its high performance and efficiency. It claims to be faster than both Apache and Nginx in many scenarios. 
+Caddy is designed to be self-contained, including features like automatic HTTP/2, HTTP/3, and QUIC support out of the box. It is ideal for developers and small-to-medium websites looking for a straightforward setup.
+
+
+What is web hosting, and what are the different types of hosting services available for websites?
+Ans:Web hosting is an online service that makes your website’s content accessible on the internet.
+different types of hosting services available for websites are as follows:
+1)Shared Hosting.
+2)VPS Hosting
+3)Dedicated Hosting
+4)WordPress Hosting
+5)Cloud Hosting
+6)Reseller Hosting
+7)E-commerce Hosting:
+
+What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+Ans:Scaling Refers to the ability of an application to handle increased traffic, user load, or data without compromising its performance, responsiveness, or availability.
+important for web applications for its Reliability,Performance,cost efficiency and future growth.
+ Horizontal scaling involves adding more machines or nodes to a system, while vertical scaling involves adding more power (CPU, RAM, storage, etc.) to an existing machine.
+
+What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+SEO is the process of optimizing a website to improve its visibility and rankings in search engine results pages (SERPs). 
+For better search  engine rankings:
+Keyword Research: Identify relevant keywords and phrases that your target audience is likely to use when searching for content related to your website. 
+Page Speed: Optimize your website's loading speed by compressing images, using caching mechanisms, and employing efficient coding practices.
+Mobile-Friendly Design
+User Experience (UX): Ensure your website is user-friendly and easy to navigate.

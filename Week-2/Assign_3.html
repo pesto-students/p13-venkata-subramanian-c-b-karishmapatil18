@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starting LineUp</title>
+  <style>
+     
+    .container {
+      display: flex;
+      flex-direction: column; 
+      width: 400px;
+    }
+
+    
+    .row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+
+    
+    .label {
+      flex: 1; 
+      margin-right: 40px; 
+    }
+
+    
+    .input {
+      flex: 2; 
+    }
+
+    .form-center  {
+       position: absolute;
+       top: 20%;
+       left: 50%;
+       transform: translate(-40%,-40%);
+}
+  </style>
+</head>
+<body>
+    <div class="form-center">
+        <h1>Starting LineUp</h1>
+    
+        <P>
+            <fieldset class="row" >
+                
+                <legend>Status</legend>
+                <input type="radio" id="Draft" name="status" value="Draft">
+                <label for="Draft">Draft</label>
+                <input type="radio" id="Final" name="status" value="Final" checked>
+                 <label for="Final">Final</label>
+
+            </fieldset>
+
+
+              <div class="container">
+                
+                <div class="row">
+                    <label for="date" >Date:</label>
+                    <select id="Date" name="gameDate">
+                        <option value="0">March 20
+                        <option value="1">March 24
+                        <option value="2">April 2
+                        <option value="3">April 6
+                        <option value="3">April 13
+                  </select>
+                </div>
+                
+
+                <fieldset >
+                    <legend>Players</legend>
+                    <input type="checkbox" id="name1" name="name1" value="name1">
+                    <label for="name1">  Aarav Agarwal</label><br>
+                    <input type="checkbox" id="name2" name="name2" value="name2">
+                    <label for="name2"> Ava Johnson</label><br>
+                    <input type="checkbox" id="name3" name="name3" value="name3">
+                    <label for="name3"> Julio Ortiz</label><br>
+                    <input type="checkbox" id="name4" name="name4" value="name4">
+                    <label for="name4"> Liam Rubio</label><br>
+                    <input type="checkbox" id="name5" name="name5" value="name5">
+                    <label for="name5"> Emma Witherspoon</label><br>
+                   
+                </fieldset>
+            
+                <br>
+                <div class="row">
+                  <button type="submit">Send Message</button>
+                </div>
+
+            </div>
+        </P>
+  
+
+
+    </div>
+</body>
+</html>
