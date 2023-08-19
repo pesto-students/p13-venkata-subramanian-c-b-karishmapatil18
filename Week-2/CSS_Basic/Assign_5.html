@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <title>Rating</title>
+<head>
+    
+  <style>
+     
+     p::before {
+            content: "*";
+            
+            color: red;
+        }
+
+        .required::after {
+          content: "*";
+            
+            color: red;
+            
+        }
+
+    .form-center  {
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translate(-40%,-40%);
+}
+  </style>
+</head>
+<body>
+   
+    
+
+    <form>
+
+    <div class="form-center">
+
+    <h1>Rate A Product</h1><br>
+
+    <p>indicate required field.</p><br>
+
+    
+      <label for="Product" class="required">Product</label>
+      <input type="text" id="Product" style="width:120px ; background-color: rgb(219, 241, 248);" ><br><br>
+    
+
+        <label for="date" class="required"  > Purchase Date</label>
+        <input type="date" id="date" name="date" style="background-color: rgb(219, 241, 248);" ><br><br>
+    
+
+        <label for="Rating" class="required" >Rating</label>
+        <input type="Rating" name="Rating" id="Rating" style="background-color: rgb(219, 241, 248);" ><br><br>
+   
+        <label for="Comments" >Comments:</label>
+        <textarea id="Comments" ></textarea><br><br>
+     
+        <button type="submit">Send Message</button>
+    
+
+  </div>
+
+</form>
+
+</body>
+</html>
