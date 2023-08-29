@@ -1,0 +1,133 @@
+:root {
+   --theme-color: #7395AE;
+   --theme-dark-color: #557A95;
+   --primary-font-color: #5D5C61;
+   --link-font-color: white;
+}
+
+body {
+   font-family: Helvetica, sans-serif;
+   color: var(--primary-font-color);
+   padding: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--theme-dark-color);
+}
+
+header {
+   margin: 0;
+}
+
+header > h1 {
+   color: var(--theme-dark-color);
+   font-size: 2.5rem;
+   margin: 10px 0;
+   text-shadow: 2px 2px 3px gray;
+}
+
+nav {
+   background-color: var(--theme-color);
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 10px 0;
+}
+
+nav li {
+   padding: 10px 0;
+}
+
+nav li a {
+   color: var(--link-font-color);
+}
+
+nav li a:hover {
+   text-decoration: none;
+   color: var(--link-font-color);
+   background-color: var(--theme-dark-color);
+}
+
+nav {
+   font-size: larger;
+}
+
+main {
+   margin: 0;
+}
+
+main > section {
+   margin-top: 30px;
+}
+
+footer {
+   margin-top: 30px;
+}
+
+.benefits-inner-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.benefit {
+   color: var(--theme-dark-color);
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+/* Add Bootstrap classes here */
+
+/* Fluid container for navigation */
+nav {
+   background-color: var(--theme-color);
+   padding: 10px 0;
+   overflow: hidden;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   margin: 0 10px;
+}
+.checkMarkImg{
+   margin: 6px 0px -5px 0px;
+   width:25px;
+}
+/* Responsive benefits container */
+#benefits > div {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* Responsive columns for vacation sections */
+.container-fluid .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* Responsive images */
+.container-fluid .row img {
+   max-width: 100%;
+   border-radius: 15px;
+}
+
+/* Responsive alert */
+.collapse {
+   display: none;
+   transition: all 0.5s;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.collapse.show {
+   display: block;
+}
